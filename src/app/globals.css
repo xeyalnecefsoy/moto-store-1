@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+body {
+  @apply bg-neutral-950 text-neutral-100 antialiased;
+}
+
+.container-px {
+  @apply px-4 sm:px-6 lg:px-8;
+}
+
+.btn-primary {
+  @apply inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-semibold text-black hover:bg-green-500 transition shadow-glow;
+}
+
+.card {
+  @apply rounded-xl bg-neutral-900 border border-neutral-800 shadow;
+}
